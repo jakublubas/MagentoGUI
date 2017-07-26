@@ -44,11 +44,11 @@ public class C_LOG_3 {
         System.out.println("3.Click the Sign In button");
 
         //4.Enter Email
-        loginPage.input_Email(driver).sendKeys("testGUI@test.com");
+        loginPage.input_Email(driver).sendKeys(Constant.userName);
         System.out.println("4.Enter Email");
 
         //5.Enter Password
-        loginPage.input_Password(driver).sendKeys("test1234");
+        loginPage.input_Password(driver).sendKeys(Constant.password);
         System.out.println("5.Enter Password");
 
         //5.Click Login button
