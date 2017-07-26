@@ -3,12 +3,8 @@ package logIn;
 import object.Browser;
 import object.Constant;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import pageObject.homePage;
 import pageObject.loginPage;
-import pageObject.registrationPage;
-
-import java.util.concurrent.TimeUnit;
 
 /**
  *
@@ -34,7 +30,7 @@ public class C_LOG_2 {
     public static void main(String[] args){
 
         //1.Launch the browser
-        driver = Browser.open();
+        driver = Browser.openChrome();
         System.out.println("ID | C_LOG_1 | Customer entered wrong Email");
         System.out.println("-------------------------------------------");
         System.out.println("1.Launch the browser");

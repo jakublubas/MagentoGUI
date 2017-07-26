@@ -3,11 +3,8 @@ package registration;
 import object.Browser;
 import object.Constant;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import pageObject.homePage;
 import pageObject.registrationPage;
-
-import java.util.concurrent.TimeUnit;
 
 /**
  *
@@ -38,7 +35,7 @@ public class C_REG_5 {
     public static void main(String[] args){
 
         //1.Launch the browser
-        driver = Browser.open();
+        driver = Browser.openChrome();
         System.out.println("ID | C_REG_5 | User enters all the details successfully");
         System.out.println("-------------------------------------------------------");
         System.out.println("1.Launch the browser");
