@@ -22,4 +22,25 @@ public class loginPage {
         element = driver.findElement(By.xpath("//*[@id=\"send2\"]/span"));
         return element;
     }
+
+    public static String getEmailErrorMessage(WebDriver driver){
+
+        WebElement emailError = driver.findElement(By.xpath("//*[@id=\"email-error\"]"));
+
+        if(emailError.isDisplayed())
+            return "User entered invalid email address";
+        else
+            return "All correct!";
+
+    }
+
+    public static String getPasswordErrorMessage(WebDriver driver){
+
+        WebElement passwordError = driver.findElement(By.xpath("//*[@id=\"pass-error\"]"));
+
+        if(passwordError.isDisplayed())
+            return "User entered invalid password";
+        else
+            return "All correct";
+    }
 }

@@ -47,13 +47,22 @@ public class registrationPage {
         WebElement passwordNameError = driver.findElement(By.id("password-error"));
         WebElement confirmPasswordfirstNameError = driver.findElement(By.id("password-confirmation-error"));
 
-        String messageError =  "User left required fields empty";
-        String messageSuccess =  "User don't left required fields empty";
 
         if (firstNameError.isDisplayed() || lastNameError.isDisplayed()|| emailNameError.isDisplayed() || passwordNameError.isDisplayed() || confirmPasswordfirstNameError.isDisplayed())
-            return messageError;
+            return "User left required fields empty";
         else
-            return messageSuccess;
+            return "User don't left required fields empty";
+    }
+
+    public static String getAlreadyUsedEmailErrorMessage(WebDriver driver){
+
+        WebElement emailError = driver.findElement(By.xpath("//*[@id=\"maincontent\"]/div[2]/div[2]/div[1]/div"));
+
+        if(emailError.isDisplayed())
+            return "User used already used Email";
+        else
+            return "All correct!";
+
     }
 
 
@@ -66,6 +75,17 @@ public class registrationPage {
         int randomInt1 = random.nextInt(100);
 
         return "Rnd"+randomInt+randomLetter+randomInt1+randomLetter1 ;
+    }
+
+    public static String getConfirmPasswordErrorMessage(WebDriver driver){
+
+        WebElement confirmPasswordError = driver.findElement(By.xpath("//*[@id=\"password-confirmation-error\"]"));
+
+        if(confirmPasswordError.isDisplayed())
+            return "Used entered different password and confirm password";
+        else
+            return "All corect";
+
     }
 
     public String getCorrectFirstNameRandom(){

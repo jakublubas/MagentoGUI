@@ -49,14 +49,19 @@ public class C_REG_1 {
         registrationPage.button_CreateAnAccount(driver).click();
         System.out.println("4.Click the Create an Account button");
 
-        //5.Check Error message
-        System.out.println("5.Check Error message");
-        System.out.println("INFO : "+registrationPage.getRequiredFieldsErrorMessage(driver));
+        if(registrationPage.getRequiredFieldsErrorMessage(driver).length()>0) {
+            //5.Check Error message
+            System.out.println("5.Check Error message");
+            System.out.println("INFO : " + registrationPage.getRequiredFieldsErrorMessage(driver));
 
-        //6.Close the browser
-        driver.close();
-        System.out.println("6.Close the browser");
-        System.out.println("-----------Test C_REG_1 PASSED----------------");
+            //6.Close the browser
+            driver.close();
+            System.out.println("6.Close the browser");
+            System.out.println("-----------Test C_REG_1 PASSED----------------");
+        }
+        else
+            System.out.println("---------Test C_REG_1 NOT PASSED--------------");
+
     }
 
 }
