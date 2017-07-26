@@ -1,5 +1,7 @@
 package logIn;
 
+import object.Browser;
+import object.Constant;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import pageObject.homePage;
@@ -31,16 +33,13 @@ public class C_LOG_3 {
     public static void main(String[] args){
 
         //1.Launch the browser
-        String exePath = "C:\\Users\\int_jalu.MOBICAPL\\Selenium\\ChromeWebDriver\\chromedriver.exe";
-        System.setProperty("webdriver.chrome.driver", exePath);
-        driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver = Browser.open();
         System.out.println("ID | C_LOG_1 | Customer entered wrong Email");
         System.out.println("-------------------------------------------");
         System.out.println("1.Launch the browser");
 
         //2.Navigate to Home Page
-        driver.get("http://localhost/Magento2/");
+        driver.get(Constant.homePage);
         System.out.println("2.Navigate to Home Page");
 
         //3.Click the Sign In button
@@ -63,7 +62,7 @@ public class C_LOG_3 {
         String URL = driver.getCurrentUrl();
         System.out.println("6.Checking URL...");
 
-        if(URL.equals("http://localhost/Magento2/customer/account/index/")) {
+        if(URL.equals(Constant.userLogInPage)) {
             System.out.println("Succesfull Logged In");
             driver.close();
             System.out.println("7.Close the browser");

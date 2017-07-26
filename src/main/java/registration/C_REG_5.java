@@ -1,5 +1,7 @@
 package registration;
 
+import object.Browser;
+import object.Constant;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import pageObject.homePage;
@@ -36,16 +38,13 @@ public class C_REG_5 {
     public static void main(String[] args){
 
         //1.Launch the browser
-        String exePath = "C:\\Users\\int_jalu.MOBICAPL\\Selenium\\ChromeWebDriver\\chromedriver.exe";
-        System.setProperty("webdriver.chrome.driver", exePath);
-        driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver = Browser.open();
         System.out.println("ID | C_REG_5 | User enters all the details successfully");
         System.out.println("-------------------------------------------------------");
         System.out.println("1.Launch the browser");
 
         //2.Navigate to Home Page
-        driver.get("http://localhost/Magento2/");
+        driver.get(Constant.homePage);
         System.out.println("2.Navigate to Home Page");
 
         //3.Click the Create an Account button on Home Page
