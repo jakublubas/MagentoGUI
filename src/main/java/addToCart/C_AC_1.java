@@ -31,6 +31,7 @@ public class C_AC_1 {
     private static WebDriver driver = null;
 
     public static void main(String[] args){
+
         //1.Launch the browser
         driver = Browser.openFirefox();
         //driver = Browser.htmlUtilDriver();

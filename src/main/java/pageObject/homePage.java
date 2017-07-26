@@ -23,4 +23,9 @@ public class homePage {
         element = driver.findElement(By.xpath("//*[@id=\"maincontent\"]/div[3]/div/div[2]/div[3]/div/div/ol/li[1]/div/a/span/span/img"));
         return element;
     }
+
+    public static WebElement link_Cart(WebDriver driver){
+
+        element = driver.findElement(By.)
+    }
 }
