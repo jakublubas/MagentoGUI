@@ -36,8 +36,8 @@ public class C_REG_3 {
     @BeforeTest
     public void openBrowser() {
         //1.Launch the browser
-        //driver = Browser.openChrome();
-        driver = Browser.htmlUtilDriver();
+        driver = Browser.openChrome();
+        //driver = Browser.htmlUtilDriver();
     }
     @Test
     public void userEntersDifferentPasswordInPasswordConfirmField() {

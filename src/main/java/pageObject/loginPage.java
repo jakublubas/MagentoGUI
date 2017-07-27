@@ -23,24 +23,17 @@ public class loginPage {
         return element;
     }
 
-    public static String getEmailErrorMessage(WebDriver driver){
+    public static WebElement getEmailErrorMessage(WebDriver driver){
 
-        WebElement emailError = driver.findElement(By.id("email-error"));
+        element = driver.findElement(By.id("email-error"));
 
-        if(emailError.isDisplayed())
-            return "User entered invalid email address";
-        else
-            return "All correct!";
-
+        return element;
     }
 
-    public static String getPasswordErrorMessage(WebDriver driver){
+    public static WebElement getPasswordErrorMessage(WebDriver driver){
 
-        WebElement passwordError = driver.findElement(By.id("pass-error"));
+        element = driver.findElement(By.id("pass-error"));
 
-        if(passwordError.isDisplayed())
-            return "User entered invalid password";
-        else
-            return "All correct";
+        return element;
     }
 }

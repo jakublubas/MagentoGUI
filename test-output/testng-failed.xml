@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test - Suite]">
+  <test name="Magento GUI - FULL Test(failed)">
+    <classes>
+      <class name="registration.C_REG_3">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="userEntersDifferentPasswordInPasswordConfirmField"/>
+        </methods>
+      </class> <!-- registration.C_REG_3 -->
+      <class name="registration.C_REG_1">
+        <methods>
+          <include name="userLefrEmptyRequiredFields"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- registration.C_REG_1 -->
+    </classes>
+  </test> <!-- Magento GUI - FULL Test(failed) -->
+</suite> <!-- Failed suite [Test - Suite] -->

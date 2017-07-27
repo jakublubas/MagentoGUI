@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test - Suite" duration-ms="307218" started-at="2017-07-27T13:00:18Z" finished-at="2017-07-27T13:05:25Z">
+    <groups>
+    </groups>
+    <test name="Magento GUI - FULL Test" duration-ms="307218" started-at="2017-07-27T13:00:18Z" finished-at="2017-07-27T13:05:25Z">
+      <class name="registration.C_REG_5">
+        <test-method status="PASS" signature="userEntersAllDetailsSuccessfully()[pri:0, instance:registration.C_REG_5@5594a1b5]" name="userEntersAllDetailsSuccessfully" duration-ms="27921" started-at="2017-07-27T15:02:01Z" finished-at="2017-07-27T15:02:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userEntersAllDetailsSuccessfully -->
+      </class> <!-- registration.C_REG_5 -->
+      <class name="logIn.C_LOG_2">
+        <test-method status="PASS" signature="customerEnteredWrongPassword()[pri:0, instance:logIn.C_LOG_2@7c30a502]" name="customerEnteredWrongPassword" duration-ms="12661" started-at="2017-07-27T15:00:44Z" finished-at="2017-07-27T15:00:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customerEnteredWrongPassword -->
+      </class> <!-- logIn.C_LOG_2 -->
+      <class name="logIn.C_LOG_3">
+        <test-method status="PASS" signature="customerEnteredCorrectEmailAndPassword()[pri:0, instance:logIn.C_LOG_3@49e4cb85]" name="customerEnteredCorrectEmailAndPassword" duration-ms="21674" started-at="2017-07-27T15:00:57Z" finished-at="2017-07-27T15:01:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customerEnteredCorrectEmailAndPassword -->
+      </class> <!-- logIn.C_LOG_3 -->
+      <class name="logIn.C_LOG_1">
+        <test-method status="PASS" signature="customerEnteredWrongEmailTest()[pri:0, instance:logIn.C_LOG_1@58ceff1]" name="customerEnteredWrongEmailTest" duration-ms="12497" started-at="2017-07-27T15:00:32Z" finished-at="2017-07-27T15:00:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customerEnteredWrongEmailTest -->
+      </class> <!-- logIn.C_LOG_1 -->
+      <class name="addToCart.C_AC_2">
+        <test-method status="PASS" signature="guestSelectsProductsAndClicksAddToCartButton()[pri:0, instance:addToCart.C_AC_2@3b6eb2ec]" name="guestSelectsProductsAndClicksAddToCartButton" duration-ms="18548" started-at="2017-07-27T15:03:02Z" finished-at="2017-07-27T15:03:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- guestSelectsProductsAndClicksAddToCartButton -->
+      </class> <!-- addToCart.C_AC_2 -->
+      <class name="addToCart.C_AC_1">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:addToCart.C_AC_1@6a5fc7f7]" name="openBrowser" is-config="true" duration-ms="2693" started-at="2017-07-27T15:00:18Z" finished-at="2017-07-27T15:00:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:addToCart.C_AC_2@3b6eb2ec]" name="openBrowser" is-config="true" duration-ms="31" started-at="2017-07-27T15:00:21Z" finished-at="2017-07-27T15:00:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:editCart.C_EC_1@1e643faf]" name="openBrowser" is-config="true" duration-ms="28" started-at="2017-07-27T15:00:21Z" finished-at="2017-07-27T15:00:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:editCart.C_EC_2@6e8dacdf]" name="openBrowser" is-config="true" duration-ms="24" started-at="2017-07-27T15:00:21Z" finished-at="2017-07-27T15:00:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:editCart.C_EC_3@7a79be86]" name="openBrowser" is-config="true" duration-ms="22" started-at="2017-07-27T15:00:21Z" finished-at="2017-07-27T15:00:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:logIn.C_LOG_1@58ceff1]" name="openBrowser" is-config="true" duration-ms="3297" started-at="2017-07-27T15:00:21Z" finished-at="2017-07-27T15:00:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:logIn.C_LOG_2@7c30a502]" name="openBrowser" is-config="true" duration-ms="2299" started-at="2017-07-27T15:00:24Z" finished-at="2017-07-27T15:00:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:logIn.C_LOG_3@49e4cb85]" name="openBrowser" is-config="true" duration-ms="33" started-at="2017-07-27T15:00:27Z" finished-at="2017-07-27T15:00:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:registration.C_REG_1@2133c8f8]" name="openBrowser" is-config="true" duration-ms="2336" started-at="2017-07-27T15:00:27Z" finished-at="2017-07-27T15:00:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:registration.C_REG_2@43a25848]" name="openBrowser" is-config="true" duration-ms="15" started-at="2017-07-27T15:00:29Z" finished-at="2017-07-27T15:00:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:registration.C_REG_3@3ac3fd8b]" name="openBrowser" is-config="true" duration-ms="2334" started-at="2017-07-27T15:00:29Z" finished-at="2017-07-27T15:00:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:registration.C_REG_5@5594a1b5]" name="openBrowser" is-config="true" duration-ms="131" started-at="2017-07-27T15:00:31Z" finished-at="2017-07-27T15:00:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="customerSelectsProductAndClicksAddToCartButton()[pri:0, instance:addToCart.C_AC_1@6a5fc7f7]" name="customerSelectsProductAndClicksAddToCartButton" duration-ms="32434" started-at="2017-07-27T15:02:29Z" finished-at="2017-07-27T15:03:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customerSelectsProductAndClicksAddToCartButton -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:addToCart.C_AC_1@6a5fc7f7]" name="closeBrowser" is-config="true" duration-ms="2" started-at="2017-07-27T15:05:24Z" finished-at="2017-07-27T15:05:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:addToCart.C_AC_2@3b6eb2ec]" name="closeBrowser" is-config="true" duration-ms="1" started-at="2017-07-27T15:05:24Z" finished-at="2017-07-27T15:05:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:editCart.C_EC_1@1e643faf]" name="closeBrowser" is-config="true" duration-ms="1" started-at="2017-07-27T15:05:24Z" finished-at="2017-07-27T15:05:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:editCart.C_EC_2@6e8dacdf]" name="closeBrowser" is-config="true" duration-ms="1" started-at="2017-07-27T15:05:24Z" finished-at="2017-07-27T15:05:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:editCart.C_EC_3@7a79be86]" name="closeBrowser" is-config="true" duration-ms="12" started-at="2017-07-27T15:05:24Z" finished-at="2017-07-27T15:05:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:logIn.C_LOG_1@58ceff1]" name="closeBrowser" is-config="true" duration-ms="521" started-at="2017-07-27T15:05:24Z" finished-at="2017-07-27T15:05:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:logIn.C_LOG_2@7c30a502]" name="closeBrowser" is-config="true" duration-ms="260" started-at="2017-07-27T15:05:25Z" finished-at="2017-07-27T15:05:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:logIn.C_LOG_3@49e4cb85]" name="closeBrowser" is-config="true" duration-ms="4" started-at="2017-07-27T15:05:25Z" finished-at="2017-07-27T15:05:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:registration.C_REG_1@2133c8f8]" name="closeBrowser" is-config="true" duration-ms="242" started-at="2017-07-27T15:05:25Z" finished-at="2017-07-27T15:05:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:registration.C_REG_2@43a25848]" name="closeBrowser" is-config="true" duration-ms="3" started-at="2017-07-27T15:05:25Z" finished-at="2017-07-27T15:05:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:registration.C_REG_3@3ac3fd8b]" name="closeBrowser" is-config="true" duration-ms="209" started-at="2017-07-27T15:05:25Z" finished-at="2017-07-27T15:05:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:registration.C_REG_5@5594a1b5]" name="closeBrowser" is-config="true" duration-ms="4" started-at="2017-07-27T15:05:25Z" finished-at="2017-07-27T15:05:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- addToCart.C_AC_1 -->
+      <class name="registration.C_REG_1">
+        <test-method status="PASS" signature="userLefrEmptyRequiredFields()[pri:0, instance:registration.C_REG_1@2133c8f8]" name="userLefrEmptyRequiredFields" duration-ms="12513" started-at="2017-07-27T15:01:18Z" finished-at="2017-07-27T15:01:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLefrEmptyRequiredFields -->
+      </class> <!-- registration.C_REG_1 -->
+      <class name="editCart.C_EC_3">
+        <test-method status="PASS" signature="customerDecidedToGoToCheckout()[pri:0, instance:editCart.C_EC_3@7a79be86]" name="customerDecidedToGoToCheckout" duration-ms="44890" started-at="2017-07-27T15:04:39Z" finished-at="2017-07-27T15:05:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customerDecidedToGoToCheckout -->
+      </class> <!-- editCart.C_EC_3 -->
+      <class name="registration.C_REG_2">
+        <test-method status="PASS" signature="userSelectsAlreadyExistingEmail()[pri:0, instance:registration.C_REG_2@43a25848]" name="userSelectsAlreadyExistingEmail" duration-ms="17528" started-at="2017-07-27T15:01:31Z" finished-at="2017-07-27T15:01:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userSelectsAlreadyExistingEmail -->
+      </class> <!-- registration.C_REG_2 -->
+      <class name="editCart.C_EC_2">
+        <test-method status="PASS" signature="customerRemoveProductFromCart()[pri:0, instance:editCart.C_EC_2@6e8dacdf]" name="customerRemoveProductFromCart" duration-ms="42739" started-at="2017-07-27T15:03:57Z" finished-at="2017-07-27T15:04:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customerRemoveProductFromCart -->
+      </class> <!-- editCart.C_EC_2 -->
+      <class name="editCart.C_EC_1">
+        <test-method status="PASS" signature="customerChangesTheQuantity()[pri:0, instance:editCart.C_EC_1@1e643faf]" name="customerChangesTheQuantity" duration-ms="36428" started-at="2017-07-27T15:03:20Z" finished-at="2017-07-27T15:03:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customerChangesTheQuantity -->
+      </class> <!-- editCart.C_EC_1 -->
+      <class name="registration.C_REG_3">
+        <test-method status="PASS" signature="userEntersDifferentPasswordInPasswordConfirmField()[pri:0, instance:registration.C_REG_3@3ac3fd8b]" name="userEntersDifferentPasswordInPasswordConfirmField" duration-ms="12834" started-at="2017-07-27T15:01:48Z" finished-at="2017-07-27T15:02:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userEntersDifferentPasswordInPasswordConfirmField -->
+      </class> <!-- registration.C_REG_3 -->
+    </test> <!-- Magento GUI - FULL Test -->
+  </suite> <!-- Test - Suite -->
+</testng-results>

@@ -32,8 +32,8 @@ public class C_REG_1 {
     @BeforeTest
     public void openBrowser() {
         //1.Launch the browser
-        //driver = Browser.openChrome();
-        driver = Browser.htmlUtilDriver();
+        driver = Browser.openChrome();
+        //driver = Browser.htmlUtilDriver();
     }
 
     @Test

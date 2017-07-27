@@ -64,12 +64,11 @@ public class C_LOG_1 {
         loginPage.button_Submit(driver).click();
         System.out.println("6.Click Login button");
 
-        Assert.assertTrue(loginPage.getEmailErrorMessage(driver).length()>0);
+        Assert.assertTrue(loginPage.getEmailErrorMessage(driver).isDisplayed());
 
-        if(loginPage.getEmailErrorMessage(driver).length()>0) {
+        if(loginPage.getEmailErrorMessage(driver).isDisplayed()) {
             //7.Check Error message
             System.out.println("7.Check Error message");
-            System.out.println("INFO: "+loginPage.getEmailErrorMessage(driver));
 
             //8.Close the browser
             System.out.println("8.Close the browser");

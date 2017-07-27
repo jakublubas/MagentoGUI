@@ -60,16 +60,17 @@ public class C_LOG_2 {
         loginPage.input_Password(driver).sendKeys("pass");
         System.out.println("5.Enter Password");
 
+
         //6.Click Login button
         loginPage.button_Submit(driver).click();
         System.out.println("6.Click Login button");
 
-        Assert.assertTrue(loginPage.getEmailErrorMessage(driver).length()>0);
 
-        if(loginPage.getPasswordErrorMessage(driver).length()>0) {
+        Assert.assertTrue(loginPage.getPasswordErrorMessage(driver).isDisplayed());
+
+        if(loginPage.getPasswordErrorMessage(driver).isDisplayed()) {
             //7.Check Error message
             System.out.println("7.Check Error message");
-            System.out.println("INFO: "+loginPage.getPasswordErrorMessage(driver));
 
             // 8.Close the browser
             System.out.println("8.Close the browser");
