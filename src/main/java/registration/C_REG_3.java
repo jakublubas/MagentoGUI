@@ -3,8 +3,12 @@ package registration;
 import object.Browser;
 import object.Constant;
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 import pageObject.homePage;
 import pageObject.registrationPage;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
 
 /**
  *
@@ -29,10 +33,15 @@ public class C_REG_3 {
     private static WebDriver driver = null;
     private static registrationPage page = new registrationPage();
 
-    public static void main(String[] args){
-
+    @BeforeTest
+    public void openBrowser() {
         //1.Launch the browser
-        driver = Browser.openChrome();
+        //driver = Browser.openChrome();
+        driver = Browser.htmlUtilDriver();
+    }
+    @Test
+    public void userEntersDifferentPasswordInPasswordConfirmField() {
+
         System.out.println("ID | C_REG_3 | User enters different password in password confirm field");
         System.out.println("-----------------------------------------------------------------------");
         System.out.println("1.Launch the browser");
@@ -50,25 +59,28 @@ public class C_REG_3 {
         System.out.println("4.Enter Password");
 
         //5.Enter Confirm Password wrong
-        registrationPage.input_ConfirmPassword(driver).sendKeys(page.getCorrectPassword()+"1");
+        registrationPage.input_ConfirmPassword(driver).sendKeys(page.getCorrectPassword() + "1");
         System.out.println("Enter Confirm Password wrong");
 
         //6.Click the Create an Account button
         registrationPage.button_CreateAnAccount(driver).click();
         System.out.println("6.Click the Create an Account button");
 
-        if(registrationPage.getConfirmPasswordErrorMessage(driver).length()>0) {
+        Assert.assertTrue(registrationPage.getConfirmPasswordErrorMessage(driver).length() > 0);
+
+        if (registrationPage.getConfirmPasswordErrorMessage(driver).length() > 0) {
             //7.Check Error message
             System.out.println("7.Check Error message");
-            System.out.println("INFO: "+registrationPage.getConfirmPasswordErrorMessage(driver));
+            System.out.println("INFO: " + registrationPage.getConfirmPasswordErrorMessage(driver));
 
             //8.Close the browser
-            driver.close();
             System.out.println("8.Close the browser");
             System.out.println("-------------------------Test C_REG_3 PASSED---------------------------");
         }
-        else
-            driver.close();
-            System.out.println("-----------------------Test C_REG_3 NOT PASSED-------------------------");
     }
+
+        @AfterTest
+        public void closeBrowser(){
+            driver.close();
+        }
 }

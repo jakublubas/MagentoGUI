@@ -1,13 +1,16 @@
 package addToCart;
 
+import actions.logInSuccessfully;
 import object.Browser;
 import object.Constant;
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 import pageObject.homePage;
 import pageObject.loginPage;
 import pageObject.productPage;
-
-import java.util.concurrent.TimeUnit;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
 
 /**
  *
@@ -30,10 +33,14 @@ public class C_AC_1 {
 
     private static WebDriver driver = null;
 
-    public static void main(String[] args){
-
+    @BeforeTest
+    public void openBrowser(){
         //1.Launch the browser
-        driver = Browser.openFirefox();
+        //driver = Browser.openFirefox();
+        driver = Browser.htmlUtilDriver();
+    }
+    @Test
+    public void customerSelectsProductAndClicksAddToCartButton(){
         //driver = Browser.htmlUtilDriver();
         System.out.println("ID | C_AC_1 | Customer selects product and clicks add to cart button");
         System.out.println("--------------------------------------------------------------------");
@@ -44,15 +51,7 @@ public class C_AC_1 {
         System.out.println("2.Navigate to Home Page");
 
         //3.Log in successfully
-        System.out.println("3.Log in successfully");
-            homePage.link_SignIn(driver).click();
-                System.out.println("\t3.1.Click the Sign In button");
-            loginPage.input_Email(driver).sendKeys(Constant.userName);
-                System.out.println("\t3.2.Enter Email");
-            loginPage.input_Password(driver).sendKeys(Constant.password);
-                System.out.println("\t3.3.Enter Password");
-            loginPage.button_Submit(driver).click();
-                System.out.println("\t3.4.Click Login button");
+        logInSuccessfully.execute(driver);
 
         //4.Navigate to Home Page
         driver.get(Constant.homePage);
@@ -66,20 +65,21 @@ public class C_AC_1 {
         productPage.button_AddToCart(driver).click();
         System.out.println("6.Click Add to Cart button");
 
+        Assert.assertTrue(productPage.getProductAddedSuccessMessage(driver).isDisplayed());
+
         if (productPage.getProductAddedSuccessMessage(driver).isDisplayed()){
             ///7.Check Message
             System.out.println("7.Check Message");
             System.out.println("INFO: SUCCESS!");
             //8.Close the browser
-            driver.close();
             System.out.println("8.Close the browser");
             System.out.println("----------------------------Test C_AC_1 PASSED----------------------");
-        }else{
-            System.out.println("--------------------------Test C_AC_1 NOT PASSED--------------------");
-            driver.close();
         }
+    }
 
-
+    @AfterTest
+    public void closeBrowser(){
+        driver.close();
     }
 
 }

@@ -4,6 +4,10 @@ package registration;
 import object.Browser;
 import object.Constant;
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
 import pageObject.homePage;
 import pageObject.registrationPage;
 
@@ -28,9 +32,15 @@ public class C_REG_2 {
     private static WebDriver driver = null;
     private static registrationPage page = new registrationPage();
 
-    public static void main(String[] args){
+    @BeforeTest
+    public void openBrowser() {
         //1.Launch the browser
-        driver = Browser.openChrome();
+        //driver = Browser.openChrome();
+        driver = Browser.htmlUtilDriver();
+    }
+
+    @Test
+    public void userSelectsAlreadyExistingEmail(){
         System.out.println("ID | C_REG_2 | User selects already existing Email");
         System.out.println("--------------------------------------------------");
         System.out.println("1.Launch the browser");
@@ -64,6 +74,7 @@ public class C_REG_2 {
         registrationPage.button_CreateAnAccount(driver).click();
         System.out.println("5.Click the Create an Account button");
 
+        Assert.assertTrue(registrationPage.getAlreadyUsedEmailErrorMessage(driver).length()>0);
 
         if(registrationPage.getAlreadyUsedEmailErrorMessage(driver).length()>0) {
            //6.Check error message
@@ -71,14 +82,13 @@ public class C_REG_2 {
            System.out.print("INFO: "+registrationPage.getAlreadyUsedEmailErrorMessage(driver)+"\n");
 
            //7.Close the browser
-           driver.close();
            System.out.println("7.Close the Browser");
            System.out.println("---------------Test C_REG_2 PASSED----------------");
        }
-       else {
-           driver.close();
-           System.out.println("-------------Test C_REG_2 NOT PASSED--------------");
-       }
+    }
 
+    @AfterTest
+    public void closeBrowser(){
+        driver.close();
     }
 }

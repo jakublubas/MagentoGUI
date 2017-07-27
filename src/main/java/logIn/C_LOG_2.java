@@ -3,8 +3,12 @@ package logIn;
 import object.Browser;
 import object.Constant;
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 import pageObject.homePage;
 import pageObject.loginPage;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
 
 /**
  *
@@ -27,12 +31,17 @@ public class C_LOG_2 {
 
     private static WebDriver driver = null;
 
-    public static void main(String[] args){
-
+    @BeforeTest
+    public void openBrowser() {
         //1.Launch the browser
         driver = Browser.openChrome();
-        System.out.println("ID | C_LOG_1 | Customer entered wrong Email");
-        System.out.println("-------------------------------------------");
+        //driver = Browser.htmlUtilDriver();
+    }
+    @Test
+    public void customerEnteredWrongPassword(){
+
+        System.out.println("ID | C_LOG_1 | Customer entered wrong Password");
+        System.out.println("----------------------------------------------");
         System.out.println("1.Launch the browser");
 
         //2.Navigate to Home Page
@@ -55,20 +64,22 @@ public class C_LOG_2 {
         loginPage.button_Submit(driver).click();
         System.out.println("6.Click Login button");
 
+        Assert.assertTrue(loginPage.getEmailErrorMessage(driver).length()>0);
+
         if(loginPage.getPasswordErrorMessage(driver).length()>0) {
             //7.Check Error message
             System.out.println("7.Check Error message");
             System.out.println("INFO: "+loginPage.getPasswordErrorMessage(driver));
 
             // 8.Close the browser
-            driver.close();
             System.out.println("8.Close the browser");
             System.out.println("----------Test C_LOG_2 PASSED--------------");
         }
-        else {
-            driver.close();
-            System.out.println("--------Test C_LOG_2 NOT PASSED------------");
-        }
+    }
+
+    @AfterTest
+    public void closeBrowser(){
+        driver.close();
     }
 
 }

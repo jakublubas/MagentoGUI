@@ -4,8 +4,12 @@ import object.Browser;
 import object.Constant;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 import pageObject.homePage;
 import pageObject.productPage;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
@@ -28,10 +32,16 @@ public class C_AC_2 {
 
     private static WebDriver driver = null;
 
-    public static void main(String[] args){
-
+    @BeforeTest
+    public void openBrowser(){
         //1.Launch the Browser
-        driver = Browser.openChrome();
+        //driver = Browser.openChrome();
+        driver = Browser.htmlUtilDriver();
+    }
+
+    @Test
+    public void guestSelectsProductsAndClicksAddToCartButton(){
+
         System.out.println("ID | C_AC_2 | Guest selects product and clicks add to cart button");
         System.out.println("-----------------------------------------------------------------");
         System.out.println("1.Launch the Browser");
@@ -49,18 +59,21 @@ public class C_AC_2 {
         System.out.println("4.Click Add to Cart button");
         driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
 
+        Assert.assertTrue(productPage.getProductAddedSuccessMessage(driver).isDisplayed());
+
         //5.Check Message
         if (productPage.getProductAddedSuccessMessage(driver).isDisplayed()){
             System.out.println("5.Check Message");
             System.out.println("INFO: SUCCESS!");
             //8.Close the browser
-            driver.close();
             System.out.println("8.Close the browser");
             System.out.println("------------------------Test C_AC_2 PASSED-----------------------");
-        }else{
-            System.out.println("----------------------Test C_AC_2 NOT PASSED---------------------");
-            driver.close();
         }
+    }
+
+    @AfterTest
+    public void closeBrowser(){
+        driver.close();
     }
 
 }

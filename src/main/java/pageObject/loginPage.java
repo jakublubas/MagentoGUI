@@ -25,7 +25,7 @@ public class loginPage {
 
     public static String getEmailErrorMessage(WebDriver driver){
 
-        WebElement emailError = driver.findElement(By.xpath("//*[@id=\"email-error\"]"));
+        WebElement emailError = driver.findElement(By.id("email-error"));
 
         if(emailError.isDisplayed())
             return "User entered invalid email address";
@@ -36,7 +36,7 @@ public class loginPage {
 
     public static String getPasswordErrorMessage(WebDriver driver){
 
-        WebElement passwordError = driver.findElement(By.xpath("//*[@id=\"pass-error\"]"));
+        WebElement passwordError = driver.findElement(By.id("pass-error"));
 
         if(passwordError.isDisplayed())
             return "User entered invalid password";

@@ -3,8 +3,14 @@ package logIn;
 import object.Browser;
 import object.Constant;
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
 import pageObject.homePage;
 import pageObject.loginPage;
+
+import static org.testng.Assert.*;
 
 /**
  *
@@ -27,12 +33,18 @@ public class C_LOG_3 {
 
     private static WebDriver driver = null;
 
-    public static void main(String[] args){
+    @BeforeTest
+    public void openBrowser() {
+        //driver = Browser.openChrome();
+        driver = Browser.htmlUtilDriver();
+        //driver = Browser.openFirefox();
+    }
 
+    @Test
+    public void customerEnteredCorrectEmailAndPassword(){
         //1.Launch the browser
-        driver = Browser.openChrome();
-        System.out.println("ID | C_LOG_1 | Customer entered wrong Email");
-        System.out.println("-------------------------------------------");
+        System.out.println("ID | C_LOG_3 | Customer entered correct Email and Password");
+        System.out.println("----------------------------------------------------------");
         System.out.println("1.Launch the browser");
 
         //2.Navigate to Home Page
@@ -59,18 +71,18 @@ public class C_LOG_3 {
         String URL = driver.getCurrentUrl();
         System.out.println("6.Checking URL...");
 
+        Assert.assertEquals(Constant.userLogInPage,URL);
+
         if(URL.equals(Constant.userLogInPage)) {
             System.out.println("Succesfull Logged In");
-            driver.close();
             System.out.println("7.Close the browser");
             System.out.println("----------Test C_LOG_3 PASSED--------------");
-        } else {
-
-            System.out.println("Not logged in");
-            System.out.println("7.Close the browser");
-            System.out.println("--------Test C_LOG_3 NOT PASSED------------");
-
         }
+    }
+
+    @AfterTest
+    public void closeBrowser(){
+        driver.close();
     }
 
 }

@@ -3,8 +3,12 @@ package registration;
 import object.Browser;
 import object.Constant;
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 import pageObject.homePage;
 import pageObject.registrationPage;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
 
 /**
  *
@@ -32,10 +36,16 @@ public class C_REG_5 {
     private static WebDriver driver = null;
     private static registrationPage page = new registrationPage();
 
-    public static void main(String[] args){
-
+    @BeforeTest
+    public void openBrowser() {
         //1.Launch the browser
-        driver = Browser.openChrome();
+        //driver = Browser.openChrome();
+        driver = Browser.htmlUtilDriver();
+    }
+
+    @Test
+    public void userEntersAllDetailsSuccessfully(){
+
         System.out.println("ID | C_REG_5 | User enters all the details successfully");
         System.out.println("-------------------------------------------------------");
         System.out.println("1.Launch the browser");
@@ -79,16 +89,20 @@ public class C_REG_5 {
         //10.Check page URL
         System.out.println("10.Check page URL");
 
+        Assert.assertEquals(driver.getCurrentUrl(),Constant.userLogInPage);
+
         //11.Print Successfull Message
         System.out.println("11.Print Successfull Message");
         System.out.println("INFO: ACCOUNT HAS BEEN CREATED");
 
         //12.Close the Browser
-        driver.close();
         System.out.println("12.Close the Browser");
         System.out.println("------------------Test C_REG_5 PASSED------------------");
+    }
 
-
+    @AfterTest
+    public void closeBrowser(){
+        driver.close();
     }
 
 }

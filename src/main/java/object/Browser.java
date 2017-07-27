@@ -29,6 +29,7 @@ public class Browser {
 
     public static WebDriver htmlUtilDriver(){
         driver = new HtmlUnitDriver();
+        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         return driver;
     }
 

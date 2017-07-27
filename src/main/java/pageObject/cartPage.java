@@ -8,10 +8,17 @@ public class cartPage {
 
     private static WebElement element = null;
 
-    public static void setQtyValue(WebDriver driver,String value){
+    public static void setQtyValue(WebDriver driver, String value){
         element = driver.findElement(By.id("cart-14-qty"));
         element.clear();
         element.sendKeys(value);
+    }
+
+    public static String getQtyValue(WebDriver driver){
+
+        element = driver.findElement(By.id("cart-14-qty"));
+        String qtyValue = element.getAttribute("value");
+        return qtyValue;
     }
 
     public static WebElement button_UpdateCart(WebDriver driver){
@@ -22,7 +29,7 @@ public class cartPage {
 
     public static WebElement button_GoToCheckout(WebDriver driver){
 
-        element = driver.findElement(By.className("action primary checkout"));
+        element = driver.findElement(By.xpath("//*[@id=\"maincontent\"]/div[3]/div/div[2]/div[1]/ul/li[1]/button"));
         return element;
     }
 }

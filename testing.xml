@@ -1,0 +1,18 @@
+<suite name="Test - Suite">
+    <test name="Magento GUI - FULL Test">
+            <classes>
+                <class name="logIn.C_LOG_1"/>
+                <class name="logIn.C_LOG_2"/>
+                <class name="logIn.C_LOG_3"/>
+                <class name="registration.C_REG_1"/>
+                <class name="registration.C_REG_2"/>
+                <class name="registration.C_REG_3"/>
+                <class name="registration.C_REG_5"/>
+                <class name="addToCart.C_AC_1"/>
+                <class name="addToCart.C_AC_2"/>
+                <class name="editCart.C_EC_1"/>
+                <class name="editCart.C_EC_2"/>
+                <class name="editCart.C_EC_3"/>
+            </classes>
+    </test>
+</suite>
