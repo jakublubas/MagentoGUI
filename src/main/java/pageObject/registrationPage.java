@@ -65,7 +65,6 @@ public class registrationPage {
 
     }
 
-
     private static String getRandomString(){
         Random random = new Random();
         Random r = new Random();
