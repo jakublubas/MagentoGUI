@@ -8,26 +8,17 @@
   <component name="ChangeListManager">
     <list default="true" id="4276fe75-6d0f-416f-9dbd-a43823928684" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/actions/logInSuccessfully.java" afterPath="$PROJECT_DIR$/src/main/java/actions/logInSuccessfully.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/checkout/C_CHKT_1.java" afterPath="$PROJECT_DIR$/src/main/java/checkout/C_CHKT_1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/checkout/C_CHKT_2.java" afterPath="$PROJECT_DIR$/src/main/java/checkout/C_CHKT_2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/checkout/C_CHKT_3.java" afterPath="$PROJECT_DIR$/src/main/java/checkout/C_CHKT_3.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/checkout/C_CHKT_4.java" afterPath="$PROJECT_DIR$/src/main/java/checkout/C_CHKT_4.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/checkout/C_CHKT_5.java" afterPath="$PROJECT_DIR$/src/main/java/checkout/C_CHKT_5.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/checkout/C_CHKT_6.java" afterPath="$PROJECT_DIR$/src/main/java/checkout/C_CHKT_6.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/object/Browser.java" afterPath="$PROJECT_DIR$/src/main/java/object/Browser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pageObject/checkoutPage.java" afterPath="$PROJECT_DIR$/src/main/java/pageObject/checkoutPage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pageObject/registrationPage.java" afterPath="$PROJECT_DIR$/src/main/java/pageObject/registrationPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/Test - Suite/Magento GUI - FULL Test.html" afterPath="$PROJECT_DIR$/test-output/Test - Suite/Magento GUI - FULL Test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/Test - Suite/Magento GUI - FULL Test.xml" afterPath="$PROJECT_DIR$/test-output/Test - Suite/Magento GUI - FULL Test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/emailable-report.html" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/index.html" afterPath="$PROJECT_DIR$/test-output/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-addToCart.C_AC_1.xml" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-addToCart.C_AC_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-addToCart.C_AC_2.xml" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-addToCart.C_AC_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-editCart.C_EC_1.xml" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-editCart.C_EC_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-editCart.C_EC_2.xml" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-editCart.C_EC_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-editCart.C_EC_3.xml" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-editCart.C_EC_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-logIn.C_LOG_1.xml" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-logIn.C_LOG_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-logIn.C_LOG_2.xml" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-logIn.C_LOG_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-logIn.C_LOG_3.xml" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-logIn.C_LOG_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-registration.C_REG_1.xml" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-registration.C_REG_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-registration.C_REG_2.xml" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-registration.C_REG_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-registration.C_REG_3.xml" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-registration.C_REG_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-registration.C_REG_5.xml" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-registration.C_REG_5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/old/Test - Suite/methods-alphabetical.html" afterPath="$PROJECT_DIR$/test-output/old/Test - Suite/methods-alphabetical.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/old/Test - Suite/methods.html" afterPath="$PROJECT_DIR$/test-output/old/Test - Suite/methods.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/testng-results.xml" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testing.xml" afterPath="$PROJECT_DIR$/testing.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,110 +35,46 @@
     </SUITE>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="checkoutPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/checkoutPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1190">
-              <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="C_CHKT_1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/checkout/C_CHKT_1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-              <folding>
-                <element signature="e#646#647#0" expanded="true" />
-                <element signature="e#695#696#0" expanded="true" />
-                <element signature="e#812#813#0" expanded="true" />
-                <element signature="e#842#843#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="C_CHKT_2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/checkout/C_CHKT_2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-              <folding>
-                <element signature="e#698#699#0" expanded="true" />
-                <element signature="e#747#748#0" expanded="true" />
-                <element signature="e#866#867#0" expanded="true" />
-                <element signature="e#896#897#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="C_CHKT_3.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/checkout/C_CHKT_3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="13" column="2" lean-forward="false" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
-              <folding>
-                <element signature="e#671#672#0" expanded="true" />
-                <element signature="e#720#721#0" expanded="true" />
-                <element signature="e#833#834#0" expanded="true" />
-                <element signature="e#863#864#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="C_CHKT_4.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/checkout/C_CHKT_4.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
-              <folding>
-                <element signature="e#679#680#0" expanded="true" />
-                <element signature="e#728#729#0" expanded="true" />
-                <element signature="e#841#842#0" expanded="true" />
-                <element signature="e#871#872#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="C_CHKT_5.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/checkout/C_CHKT_5.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="22" column="2" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
-              <folding>
-                <element signature="e#683#684#0" expanded="true" />
-                <element signature="e#732#733#0" expanded="true" />
-                <element signature="e#849#850#0" expanded="true" />
-                <element signature="e#879#880#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="C_CHKT_6.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/checkout/C_CHKT_6.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="22" column="2" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
-              <folding>
-                <element signature="e#748#749#0" expanded="true" />
-                <element signature="e#797#798#0" expanded="true" />
-                <element signature="e#938#939#0" expanded="true" />
-                <element signature="e#968#969#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="C_CHKT_6.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/checkout/C_CHKT_6.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1479">
+                  <caret line="98" column="14" lean-forward="true" selection-start-line="98" selection-start-column="14" selection-end-line="98" selection-end-column="14" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="testing.xml" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/testing.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="289">
+                  <caret line="17" column="49" lean-forward="true" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="C_CHKT_5.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/checkout/C_CHKT_5.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="646">
+                  <caret line="90" column="0" lean-forward="true" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -174,14 +101,10 @@
         <option value="$PROJECT_DIR$/src/main/java/addToCart/C_AC_2.java" />
         <option value="$PROJECT_DIR$/src/main/java/object/Constant.java" />
         <option value="$PROJECT_DIR$/src/main/java/pageObject/cartPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/object/Browser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/addToCart/C_AC_1.java" />
         <option value="$PROJECT_DIR$/src/main/java/editCart/C_EC_2.java" />
         <option value="$PROJECT_DIR$/src/main/java/editCart/C_EC_3.java" />
         <option value="$PROJECT_DIR$/src/main/java/editCart/C_EC_1.java" />
         <option value="$PROJECT_DIR$/src/main/java/actions/addProduct.java" />
-        <option value="$PROJECT_DIR$/src/main/java/actions/logInSuccessfully.java" />
-        <option value="$PROJECT_DIR$/testing.xml" />
         <option value="$PROJECT_DIR$/src/main/java/logIn/C_LOG_3.java" />
         <option value="$PROJECT_DIR$/src/main/java/registration/C_REG_2.java" />
         <option value="$PROJECT_DIR$/src/main/java/registration/C_REG_5.java" />
@@ -190,14 +113,18 @@
         <option value="$PROJECT_DIR$/src/main/java/logIn/C_LOG_2.java" />
         <option value="$PROJECT_DIR$/src/main/java/registration/C_REG_1.java" />
         <option value="$PROJECT_DIR$/src/main/java/registration/C_REG_3.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObject/registrationPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObject/checkoutPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/addToCart/C_AC_1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/actions/logInSuccessfully.java" />
+        <option value="$PROJECT_DIR$/src/main/java/object/Browser.java" />
         <option value="$PROJECT_DIR$/src/main/java/checkout/C_CHKT_1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObject/registrationPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/checkout/C_CHKT_2.java" />
         <option value="$PROJECT_DIR$/src/main/java/checkout/C_CHKT_3.java" />
         <option value="$PROJECT_DIR$/src/main/java/checkout/C_CHKT_4.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObject/checkoutPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/checkout/C_CHKT_5.java" />
         <option value="$PROJECT_DIR$/src/main/java/checkout/C_CHKT_6.java" />
+        <option value="$PROJECT_DIR$/testing.xml" />
       </list>
     </option>
   </component>
@@ -229,7 +156,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -323,9 +252,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -347,10 +274,10 @@
     </option>
   </component>
   <component name="RunManager" selected="TestNG.C:/Users/int_jalu.MOBICAPL/Desktop/MagentoGUI/testing.xml">
-    <configuration name="C_LOG_1" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C_CHKT_3" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="logIn.*" />
+          <option name="PATTERN" value="checkout.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -358,8 +285,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="logIn" />
-      <option name="MAIN_CLASS_NAME" value="logIn.C_LOG_1" />
+      <option name="PACKAGE_NAME" value="checkout" />
+      <option name="MAIN_CLASS_NAME" value="checkout.C_CHKT_3" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -379,10 +306,10 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="C_LOG_2" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C_CHKT_4" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="logIn.*" />
+          <option name="PATTERN" value="checkout.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -390,8 +317,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="logIn" />
-      <option name="MAIN_CLASS_NAME" value="logIn.C_LOG_2" />
+      <option name="PACKAGE_NAME" value="checkout" />
+      <option name="MAIN_CLASS_NAME" value="checkout.C_CHKT_4" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -411,10 +338,10 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="C_REG_1" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C_CHKT_5" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="registration.*" />
+          <option name="PATTERN" value="checkout.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -422,8 +349,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="registration" />
-      <option name="MAIN_CLASS_NAME" value="registration.C_REG_1" />
+      <option name="PACKAGE_NAME" value="checkout" />
+      <option name="MAIN_CLASS_NAME" value="checkout.C_CHKT_5" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -443,10 +370,10 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="C_REG_3" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C_CHKT_6" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="registration.*" />
+          <option name="PATTERN" value="checkout.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -454,8 +381,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="registration" />
-      <option name="MAIN_CLASS_NAME" value="registration.C_REG_3" />
+      <option name="PACKAGE_NAME" value="checkout" />
+      <option name="MAIN_CLASS_NAME" value="checkout.C_CHKT_6" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -476,29 +403,28 @@
       <listeners />
     </configuration>
     <configuration name="C:/Users/int_jalu.MOBICAPL/Desktop/MagentoGUI/testing.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <output_file path="raport" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="MagentoGUI" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testing.xml" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="GROUP_NAME" value="" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="SUITE" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
       <option name="ANNOTATION_TYPE" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
-      <option name="USE_DEFAULT_REPORTERS" value="true" />
-      <option name="PROPERTIES_FILE" value="" />
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
       <envs />
       <properties />
       <listeners />
@@ -557,19 +483,19 @@
       <option name="PORT" value="5005" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.C:/Users/int_jalu.MOBICAPL/Desktop/MagentoGUI/testing.xml" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.C_REG_3" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.C_LOG_1" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.C_LOG_2" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.C_REG_1" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG.C_CHKT_3" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.C_CHKT_4" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.C_CHKT_5" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.C_CHKT_6" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.C:/Users/int_jalu.MOBICAPL/Desktop/MagentoGUI/testing.xml" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="TestNG.C:/Users/int_jalu.MOBICAPL/Desktop/MagentoGUI/testing.xml" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.C_REG_3" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.C_REG_1" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.C_LOG_2" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.C_LOG_1" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.C_CHKT_6" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.C_CHKT_5" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.C_CHKT_4" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.C_CHKT_3" />
       </list>
     </recent_temporary>
   </component>
@@ -587,40 +513,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C_LOG_2 - 2017.07.27 at 14h 48m 43s.xml">
-      <configuration name="C_LOG_2" configurationId="TestNG" />
+    <history-entry file="C_CHKT_4 - 2017.07.31 at 14h 24m 30s.xml">
+      <configuration name="C_CHKT_4" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C_LOG_2 - 2017.07.27 at 14h 50m 02s.xml">
-      <configuration name="C_LOG_2" configurationId="TestNG" />
+    <history-entry file="C_CHKT_5 - 2017.07.31 at 14h 37m 06s.xml">
+      <configuration name="C_CHKT_5" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C_LOG_2 - 2017.07.27 at 14h 50m 52s.xml">
-      <configuration name="C_LOG_2" configurationId="TestNG" />
+    <history-entry file="C_CHKT_5 - 2017.07.31 at 14h 39m 03s.xml">
+      <configuration name="C_CHKT_5" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C_REG_1 - 2017.07.27 at 14h 58m 21s.xml">
-      <configuration name="C_REG_1" configurationId="TestNG" />
+    <history-entry file="C_CHKT_6 - 2017.07.31 at 14h 45m 14s.xml">
+      <configuration name="C_CHKT_6" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C_REG_1 - 2017.07.27 at 14h 59m 37s.xml">
-      <configuration name="C_REG_1" configurationId="TestNG" />
+    <history-entry file="C_CHKT_6 - 2017.07.31 at 14h 47m 37s.xml">
+      <configuration name="C_CHKT_6" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C_REG_3 - 2017.07.27 at 15h 00m 10s.xml">
-      <configuration name="C_REG_3" configurationId="TestNG" />
+    <history-entry file="C_CHKT_6 - 2017.07.31 at 14h 49m 55s.xml">
+      <configuration name="C_CHKT_6" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_int_jalu_MOBICAPL_Desktop_MagentoGUI_testing_xml - 2017.07.27 at 14h 56m 43s.xml">
-      <configuration name="C:/Users/int_jalu.MOBICAPL/Desktop/MagentoGUI/testing.xml" configurationId="TestNG" />
+    <history-entry file="C_CHKT_6 - 2017.07.31 at 14h 56m 26s.xml">
+      <configuration name="C_CHKT_6" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_int_jalu_MOBICAPL_Desktop_MagentoGUI_testing_xml - 2017.07.27 at 15h 05m 26s.xml">
-      <configuration name="C:/Users/int_jalu.MOBICAPL/Desktop/MagentoGUI/testing.xml" configurationId="TestNG" />
+    <history-entry file="C_CHKT_6 - 2017.07.31 at 14h 58m 33s.xml">
+      <configuration name="C_CHKT_6" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_int_jalu_MOBICAPL_Desktop_MagentoGUI_testing_xml - 2017.07.28 at 08h 25m 12s.xml">
-      <configuration name="C:/Users/int_jalu.MOBICAPL/Desktop/MagentoGUI/testing.xml" configurationId="TestNG" />
+    <history-entry file="C_CHKT_6 - 2017.07.31 at 15h 00m 25s.xml">
+      <configuration name="C_CHKT_6" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_int_jalu_MOBICAPL_Desktop_MagentoGUI_testing_xml - 2017.07.28 at 08h 32m 30s.xml">
+    <history-entry file="C__Users_int_jalu_MOBICAPL_Desktop_MagentoGUI_testing_xml - 2017.07.31 at 15h 28m 20s.xml">
       <configuration name="C:/Users/int_jalu.MOBICAPL/Desktop/MagentoGUI/testing.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -631,17 +556,17 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40200445" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15618336" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17537314" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997773" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -661,37 +586,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/registration/C_REG_5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="42" column="42" lean-forward="false" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/addToCart/C_AC_1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/cartPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/editCart/C_EC_1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="34" column="28" lean-forward="false" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -699,7 +598,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="53" lean-forward="false" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -715,7 +613,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="29" column="23" lean-forward="false" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -723,7 +620,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -731,9 +627,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="34" column="28" lean-forward="false" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -741,7 +635,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -792,7 +685,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -840,16 +732,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/actions/logInSuccessfully.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/actions/addProduct.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -865,23 +747,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/editCart/C_EC_1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="59" column="39" lean-forward="true" selection-start-line="59" selection-start-column="39" selection-end-line="59" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/editCart/C_EC_3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="492">
           <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="62" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -895,14 +764,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/registration/C_REG_5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="42" column="42" lean-forward="false" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/logIn/C_LOG_3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -911,19 +772,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testing.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="47" lean-forward="false" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/logIn/C_LOG_1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1054">
           <caret line="70" column="56" lean-forward="false" selection-start-line="70" selection-start-column="56" selection-end-line="70" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -931,7 +783,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -953,27 +804,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/addToCart/C_AC_1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="46" column="51" lean-forward="false" selection-start-line="46" selection-start-column="51" selection-end-line="46" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/homePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/registrationPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -981,15 +815,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/object/Browser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="31" column="52" lean-forward="false" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1001,110 +826,159 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/checkoutPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/cartPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/editCart/C_EC_2.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="40" column="16" lean-forward="false" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <marker date="1501150057063" expanded="true" signature="780:2315" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/registration/C_REG_5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/editCart/C_EC_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="44" column="20" lean-forward="false" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/addToCart/C_AC_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="75" column="103" lean-forward="false" selection-start-line="75" selection-start-column="103" selection-end-line="75" selection-end-column="103" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/actions/logInSuccessfully.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="22" column="10" lean-forward="false" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/object/Browser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="31" column="72" lean-forward="false" selection-start-line="31" selection-start-column="72" selection-end-line="31" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/registrationPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="76" column="5" lean-forward="false" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.4.0/selenium-support-3.4.0.jar!/org/openqa/selenium/support/ui/Select.class">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
-          <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <caret line="209" column="0" lean-forward="false" selection-start-line="209" selection-start-column="0" selection-end-line="209" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/checkout/C_CHKT_2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1326">
+          <caret line="91" column="88" lean-forward="false" selection-start-line="91" selection-start-column="88" selection-end-line="91" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/checkout/C_CHKT_3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="92" column="0" lean-forward="true" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/checkout/C_CHKT_4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="85" column="43" lean-forward="true" selection-start-line="85" selection-start-column="43" selection-end-line="85" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/checkoutPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="95" column="23" lean-forward="true" selection-start-line="95" selection-start-column="23" selection-end-line="95" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1501150057063" expanded="true" signature="780:2315" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/checkout/C_CHKT_1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-          <folding>
-            <element signature="e#646#647#0" expanded="true" />
-            <element signature="e#695#696#0" expanded="true" />
-            <element signature="e#812#813#0" expanded="true" />
-            <element signature="e#842#843#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/checkout/C_CHKT_2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-          <folding>
-            <element signature="e#698#699#0" expanded="true" />
-            <element signature="e#747#748#0" expanded="true" />
-            <element signature="e#866#867#0" expanded="true" />
-            <element signature="e#896#897#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/checkout/C_CHKT_3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" column="2" lean-forward="false" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
-          <folding>
-            <element signature="e#671#672#0" expanded="true" />
-            <element signature="e#720#721#0" expanded="true" />
-            <element signature="e#833#834#0" expanded="true" />
-            <element signature="e#863#864#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/checkout/C_CHKT_4.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
-          <folding>
-            <element signature="e#679#680#0" expanded="true" />
-            <element signature="e#728#729#0" expanded="true" />
-            <element signature="e#841#842#0" expanded="true" />
-            <element signature="e#871#872#0" expanded="true" />
-          </folding>
+          <caret line="76" column="6" lean-forward="false" selection-start-line="76" selection-start-column="6" selection-end-line="76" selection-end-column="86" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/checkout/C_CHKT_5.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="22" column="2" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
-          <folding>
-            <element signature="e#683#684#0" expanded="true" />
-            <element signature="e#732#733#0" expanded="true" />
-            <element signature="e#849#850#0" expanded="true" />
-            <element signature="e#879#880#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="646">
+          <caret line="90" column="0" lean-forward="true" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/checkout/C_CHKT_6.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="22" column="2" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
-          <folding>
-            <element signature="e#748#749#0" expanded="true" />
-            <element signature="e#797#798#0" expanded="true" />
-            <element signature="e#938#939#0" expanded="true" />
-            <element signature="e#968#969#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1479">
+          <caret line="98" column="14" lean-forward="true" selection-start-line="98" selection-start-column="14" selection-end-line="98" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MagentoGUI.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="49" lean-forward="true" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+          <folding />
         </state>
       </provider>
     </entry>

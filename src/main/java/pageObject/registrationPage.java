@@ -65,7 +65,7 @@ public class registrationPage {
 
     }
 
-    private static String getRandomString(){
+    public static String getRandomString(){
         Random random = new Random();
         Random r = new Random();
         char randomLetter = (char)(r.nextInt(26) + 'a');

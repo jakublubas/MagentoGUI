@@ -13,6 +13,12 @@
                 <class name="editCart.C_EC_1"/>
                 <class name="editCart.C_EC_2"/>
                 <class name="editCart.C_EC_3"/>
+                <class name="checkout.C_CHKT_1"/>
+                <class name="checkout.C_CHKT_2"/>
+                <class name="checkout.C_CHKT_3"/>
+                <class name="checkout.C_CHKT_4"/>
+                <class name="checkout.C_CHKT_5"/>
+                <class name="checkout.C_CHKT_6"/>
             </classes>
     </test>
 </suite>
