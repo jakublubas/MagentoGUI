@@ -36,7 +36,8 @@ public class C_AC_2 {
     public void openBrowser(){
         //1.Launch the Browser
         //driver = Browser.openChrome();
-        driver = Browser.htmlUtilDriver();
+        //driver = Browser.htmlUtilDriver();
+        driver = Browser.openFirefox();
     }
 
     @Test
@@ -57,7 +58,11 @@ public class C_AC_2 {
         //4.Click Add to Cart button
         productPage.button_AddToCart(driver).click();
         System.out.println("4.Click Add to Cart button");
-        driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
+        try {
+            Thread.sleep(10000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 
         Assert.assertTrue(productPage.getProductAddedSuccessMessage(driver).isDisplayed());
 

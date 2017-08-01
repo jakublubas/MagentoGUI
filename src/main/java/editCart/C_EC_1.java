@@ -37,8 +37,8 @@ public class C_EC_1 {
 
         @BeforeTest
         public void openBrowser() {
-            //driver = Browser.openFirefox();
-            driver = Browser.htmlUtilDriver();
+            driver = Browser.openFirefox();
+            //driver = Browser.htmlUtilDriver();
         }
 
         @Test

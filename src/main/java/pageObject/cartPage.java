@@ -9,14 +9,14 @@ public class cartPage {
     private static WebElement element = null;
 
     public static void setQtyValue(WebDriver driver, String value){
-        element = driver.findElement(By.id("cart-14-qty"));
+        element = driver.findElement(By.xpath(".//*[@id='cart-5-qty']"));
         element.clear();
         element.sendKeys(value);
     }
 
     public static String getQtyValue(WebDriver driver){
 
-        element = driver.findElement(By.id("cart-14-qty"));
+        element = driver.findElement(By.xpath(".//*[@id='cart-5-qty']"));
         String qtyValue = element.getAttribute("value");
         return qtyValue;
     }

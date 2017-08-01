@@ -5,11 +5,15 @@ import actions.logInSuccessfully;
 import object.Browser;
 import object.Constant;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import pageObject.checkoutPage;
+
+import java.util.concurrent.TimeUnit;
 
 /**
  *
@@ -85,13 +89,10 @@ public class C_CHKT_6 {
         checkoutPage.button_Next(driver).click();
         System.out.println("8.Click Next");
 
-        try {
-            Thread.sleep(10000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        WebDriverWait wait = new WebDriverWait(driver, 20 );
+        wait.until(ExpectedConditions.urlMatches("http://localhost/magento-2/checkout/#payment"));
 
-        Assert.assertEquals(driver.getCurrentUrl(),"http://localhost/Magento2/checkout/#payment");
+        Assert.assertEquals(driver.getCurrentUrl(),"http://localhost/magento-2/checkout/#payment");
             System.out.println("---------------------Test C_CHKT_6 PASSED----------------");
 
     }

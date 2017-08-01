@@ -106,7 +106,7 @@ public class checkoutPage {
 
     public static WebElement button_Next(WebDriver driver){
        //element = driver.findElement(By.xpath("//*[@id=\"shipping-method-buttons-container\"]/div/button/span/span"));
-        element = driver.findElement(By.xpath(".//*[@id='shipping-method-buttons-container']/div/button"));
+        element = driver.findElement(By.xpath(".//*[@id='shipping-method-buttons-container']/div/button/span/span[text()='Next']"));
 
         return element;
     }
